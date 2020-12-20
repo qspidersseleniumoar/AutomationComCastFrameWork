@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="TestRunner-Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.comcast.conatcttest.CreateConatctWithORg">
+        <methods>
+          <include name="configBeforeSuite"/>
+          <include name="cofigBeforeMtd"/>
+          <include name="configBeforeParllelClass"/>
+          <include name="configAsterSuite"/>
+          <include name="configAfterMethode"/>
+          <include name="confifAfterClass"/>
+          <include name="createConatctWithORg"/>
+        </methods>
+      </class> <!-- com.comcast.conatcttest.CreateConatctWithORg -->
+    </classes>
+  </test> <!-- TestRunner-Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

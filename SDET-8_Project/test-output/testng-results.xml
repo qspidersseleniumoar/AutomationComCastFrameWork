@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="59" passed="59">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6925" started-at="2020-12-18T06:28:02Z" finished-at="2020-12-18T06:28:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6925" started-at="2020-12-18T06:28:02Z" finished-at="2020-12-18T06:28:09Z">
+      <class name="sample.AddToCart2">
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="15" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ProductName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QTY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XR-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XR-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="3" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XR-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XR-4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XR-5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XR-6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XR-7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="3" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="12" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1101]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="4" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1102]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="5" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1103]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1104]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1105]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1106]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1107]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1108]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1109]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1110]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n-1111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-51]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="0" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-52]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-53]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-54]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-55]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-56]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-57]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-58]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-59]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-60]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="3" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-61]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-62]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-63]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-64]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-66]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-67]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="9" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-68]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-69]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-70]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-71]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[41]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="3" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-72]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-73]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-74]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-75]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-76]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="3" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-77]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-78]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[48]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="5" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-79]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="6" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-81]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-82]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="4" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-83]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="0" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-84]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-86]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-87]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A-88]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+      </class> <!-- sample.AddToCart2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

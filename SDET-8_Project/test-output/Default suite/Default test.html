@@ -1,0 +1,374 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>59/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 18 11:58:02 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6925 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Cat, ProductName, QTY</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-1, 1</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-2, 2</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-3, 3</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-4, 4</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-5, 5</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-6, 6</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-7, 7</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1100, 8</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1101, 9</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1102, 10</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1103, 11</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1104, 12</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1105, 13</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1106, 14</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1107, 15</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1108, 16</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1109, 17</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1110, 18</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1111, 19</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-50, 20</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-51, 21</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-52, 22</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-53, 23</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-54, 24</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-55, 25</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-56, 26</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-57, 27</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-58, 28</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-59, 29</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-60, 30</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-61, 31</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-62, 32</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-63, 33</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-64, 34</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-65, 35</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-66, 36</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-67, 37</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-68, 38</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-69, 39</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-70, 40</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-71, 41</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-72, 42</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-73, 43</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-74, 44</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-75, 45</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-76, 46</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-77, 47</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-78, 48</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-79, 49</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-80, 50</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-81, 51</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-82, 52</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-83, 53</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-84, 54</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-85, 55</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-86, 56</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-87, 57</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<tr>
+<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-88, 58</td>
+<td></td>
+<td>0</td>
+<td>sample.AddToCart2@1f1c7bf6</td></tr>
+</table><p>
+</body>
+</html>

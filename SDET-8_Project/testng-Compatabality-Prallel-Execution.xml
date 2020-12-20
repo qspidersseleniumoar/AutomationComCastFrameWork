@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+
+
+  <test name="TestRunner-Chrome" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.comcast.conatcttest.CreateCoantctTest"/>
+      <class name="com.comcast.conatcttest.CreateConatctWithORg"/>
+       <class name="com.comcast.orgnaizationtest.CreateOrganixzationTest"/>
+       <class name="com.comcast.orgnaizationtest.CreateOrganixzationWithIndustryTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestRunner-Firefox" preserve-order="true">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.comcast.conatcttest.CreateCoantctTest"/>
+       <class name="com.comcast.orgnaizationtest.CreateOrganixzationTest"/>
+       <class name="com.comcast.orgnaizationtest.CreateOrganixzationWithIndustryTest"/>
+       <class name="com.comcast.conatcttest.CreateConatctWithORg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
