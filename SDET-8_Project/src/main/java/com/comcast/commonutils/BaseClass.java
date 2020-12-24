@@ -40,7 +40,7 @@ public class BaseClass {
 		String URL  = fLib.getPropertyKeyValue("url");
 
 		String BROWSER  = fLib.getPropertyKeyValue("browser");
-
+    
 		 if(BROWSER.equals("chrome")) {
 		    driver = new ChromeDriver();
 		 }else if(BROWSER.equals("firefox")) {
