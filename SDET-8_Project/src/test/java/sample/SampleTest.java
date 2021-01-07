@@ -17,7 +17,7 @@ public class SampleTest {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("http://localhost:8888");
 		
-            Login lp = new Login(driver);//
+            Login lp = new Login(driver);
             
           
           

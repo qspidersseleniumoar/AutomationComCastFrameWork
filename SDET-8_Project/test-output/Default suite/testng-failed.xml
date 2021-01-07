@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sample.AddToCart2">
+      <class name="sample.SampleTest_RmoteExecution">
         <methods>
-          <include name="addToCart"/>
+          <include name="beforeclass"/>
+          <include name="sampleTest"/>
         </methods>
-      </class> <!-- sample.AddToCart2 -->
+      </class> <!-- sample.SampleTest_RmoteExecution -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>59/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 18 11:58:02 IST 2020</td>
+<td>Started on:</td><td>Wed Jan 06 16:56:03 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6925 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21636 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,308 +67,321 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Cat, ProductName, QTY</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<td title='sample.SampleTest_RmoteExecution.beforeclass()'><b>beforeclass</b><br>Test class: sample.SampleTest_RmoteExecution</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TY-DEEPAK-TR&apos;, ip: &apos;172.20.10.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at sample.SampleTest_RmoteExecution.beforeclass(SampleTest_RmoteExecution.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Failed to connect to /13.235.24.60:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	... 30 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 52 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace2123960023", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2123960023'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TY-DEEPAK-TR&apos;, ip: &apos;172.20.10.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at sample.SampleTest_RmoteExecution.beforeclass(SampleTest_RmoteExecution.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Failed to connect to /13.235.24.60:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	... 30 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 52 more
+</pre></div></td>
+<td>21</td>
+<td>sample.SampleTest_RmoteExecution@548a102f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-1, 1</td>
-<td></td>
+<td title='sample.SampleTest_RmoteExecution.sampleTest()'><b>sampleTest</b><br>Test class: sample.SampleTest_RmoteExecution</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TY-DEEPAK-TR&apos;, ip: &apos;172.20.10.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at sample.SampleTest_RmoteExecution.beforeclass(SampleTest_RmoteExecution.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Failed to connect to /13.235.24.60:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	... 30 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 52 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1783568981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1783568981'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TY-DEEPAK-TR&apos;, ip: &apos;172.20.10.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at sample.SampleTest_RmoteExecution.beforeclass(SampleTest_RmoteExecution.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Failed to connect to /13.235.24.60:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	... 30 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 52 more
+</pre></div></td>
 <td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-2, 2</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-3, 3</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-4, 4</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-5, 5</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-6, 6</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Iphone , XR-7, 7</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1100, 8</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1101, 9</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1102, 10</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1103, 11</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1104, 12</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1105, 13</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1106, 14</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1107, 15</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1108, 16</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1109, 17</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1110, 18</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Nokia, n-1111, 19</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-50, 20</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-51, 21</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-52, 22</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-53, 23</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-54, 24</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-55, 25</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-56, 26</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-57, 27</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-58, 28</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-59, 29</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-60, 30</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-61, 31</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-62, 32</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-63, 33</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-64, 34</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-65, 35</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-66, 36</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-67, 37</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-68, 38</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-69, 39</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-70, 40</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-71, 41</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-72, 42</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-73, 43</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-74, 44</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-75, 45</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-76, 46</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-77, 47</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-78, 48</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-79, 49</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-80, 50</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-81, 51</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-82, 52</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-83, 53</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-84, 54</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-85, 55</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-86, 56</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-87, 57</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
-<tr>
-<td title='sample.AddToCart2.addToCart()'><b>addToCart</b><br>Test class: sample.AddToCart2<br>Parameters: Samsung, A-88, 58</td>
-<td></td>
-<td>0</td>
-<td>sample.AddToCart2@1f1c7bf6</td></tr>
+<td>sample.SampleTest_RmoteExecution@548a102f</td></tr>
 </table><p>
 </body>
 </html>

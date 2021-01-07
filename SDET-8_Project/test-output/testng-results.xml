@@ -1,1252 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="59" passed="59">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6925" started-at="2020-12-18T06:28:02Z" finished-at="2020-12-18T06:28:09Z">
+  <suite name="Default suite" duration-ms="21636" started-at="2021-01-06T11:26:03Z" finished-at="2021-01-06T11:26:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6925" started-at="2020-12-18T06:28:02Z" finished-at="2020-12-18T06:28:09Z">
-      <class name="sample.AddToCart2">
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="15" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Cat]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ProductName]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[QTY]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="21636" started-at="2021-01-06T11:26:03Z" finished-at="2021-01-06T11:26:24Z">
+      <class name="sample.SampleTest_RmoteExecution">
+        <test-method status="FAIL" signature="beforeclass()[pri:0, instance:sample.SampleTest_RmoteExecution@548a102f]" name="beforeclass" is-config="true" duration-ms="21543" started-at="2021-01-06T11:26:03Z" finished-at="2021-01-06T11:26:24Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TY-DEEPAK-TR', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TY-DEEPAK-TR', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at sample.SampleTest_RmoteExecution.beforeclass(SampleTest_RmoteExecution.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Failed to connect to /13.235.24.60:4444
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+... 30 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+at java.net.Socket.connect(Socket.java:589)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+... 52 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Iphone ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[XR-1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeclass -->
+        <test-method status="SKIP" signature="sampleTest()[pri:0, instance:sample.SampleTest_RmoteExecution@548a102f]" name="sampleTest" duration-ms="0" started-at="2021-01-06T11:26:24Z" finished-at="2021-01-06T11:26:24Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TY-DEEPAK-TR', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TY-DEEPAK-TR', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at sample.SampleTest_RmoteExecution.beforeclass(SampleTest_RmoteExecution.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Failed to connect to /13.235.24.60:4444
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+... 30 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+at java.net.Socket.connect(Socket.java:589)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+... 52 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Iphone ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[XR-2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="3" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Iphone ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[XR-3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Iphone ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[XR-4]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Iphone ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[XR-5]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Iphone ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[XR-6]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Iphone ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[XR-7]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="3" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1100]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="12" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1101]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="4" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1102]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="5" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1103]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1104]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1105]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[13]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1106]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[14]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1107]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[15]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1108]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[16]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1109]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[17]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1110]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[18]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[n-1111]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[19]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-50]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-51]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[21]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="0" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-52]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[22]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-53]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[23]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-54]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[24]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-55]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[25]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-56]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[26]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-57]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[27]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-58]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[28]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-59]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[29]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-60]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[30]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="3" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-61]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[31]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-62]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[32]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-63]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[33]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-64]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[34]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-65]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[35]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-66]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[36]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-67]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[37]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="9" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-68]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[38]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-69]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[39]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-70]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[40]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-71]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[41]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="3" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-72]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[42]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-73]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[43]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-74]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[44]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-75]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[45]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-76]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[46]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="3" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-77]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[47]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="2" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-78]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[48]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="5" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-79]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[49]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-80]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="6" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-81]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[51]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-82]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[52]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="4" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-83]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[53]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="0" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-84]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[54]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-85]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[55]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-86]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[56]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-87]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[57]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="addToCart(java.lang.String, java.lang.String, java.lang.Object)[pri:0, instance:sample.AddToCart2@1f1c7bf6]" name="addToCart" duration-ms="1" started-at="2020-12-18T06:28:09Z" data-provider="getDataForAddToCartTest" finished-at="2020-12-18T06:28:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Samsung]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A-88]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[58]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-      </class> <!-- sample.AddToCart2 -->
+        </test-method> <!-- sampleTest -->
+      </class> <!-- sample.SampleTest_RmoteExecution -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
